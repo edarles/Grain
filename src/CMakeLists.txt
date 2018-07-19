@@ -1,0 +1,32 @@
+include_directories(src)
+include_directories(src/SPH)
+include_directories(src/SPH/grid)
+include_directories(src/SPH/particle)
+include_directories(src/SPH/solveur)
+include_directories(src/SPH/solveur/2D)
+include_directories(src/SPH/solveur/2D/Brownian)
+include_directories(src/Film)
+include_directories(src/IHM)
+
+SET(APP_SOURCES
+			src/IHM/glWidget.cpp
+			src/IHM/window.cpp
+			src/IHM/main.cpp
+      		src/SPH/grid/gridFluid.cpp
+			src/SPH/grid/gridSph.cpp
+			src/SPH/particle/particle.cpp
+			src/SPH/particle/sphParticle.cpp
+			src/SPH/solveur/sph.cpp
+			src/SPH/solveur/2D/sph2d.cpp
+			src/SPH/solveur/2D/sesph2d.cpp
+			src/SPH/solveur/2D/wcsph2d.cpp
+			src/SPH/solveur/2D/Brownian/sph2d_brownian.cpp
+			src/SPH/solveur/2D/Brownian/sesph2d_brownian.cpp
+			src/SPH/solveur/2D/Brownian/wcsph2d_brownian.cpp
+			src/SPH/solveur/sph_shader.cpp
+			src/Film/pixels.cpp
+			src/Film/Layer.cpp
+			src/Film/Layers.cpp
+			src/Film/Film.cpp
+)
+

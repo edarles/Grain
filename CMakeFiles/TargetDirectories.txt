@@ -1,0 +1,4 @@
+/home/emma/Bureau/Recherche/Vision/Grain/CMakeFiles/edit_cache.dir
+/home/emma/Bureau/Recherche/Vision/Grain/CMakeFiles/rebuild_cache.dir
+/home/emma/Bureau/Recherche/Vision/Grain/CMakeFiles/Grains.dir
+/home/emma/Bureau/Recherche/Vision/Grain/CMakeFiles/Grains_automoc.dir

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/emmanuelle/Desktop/SLight/src/utils_cl.c
+utils_cl.h
+-
+
+src/utils_cl.h
+iostream
+-
+vector
+-
+string
+-
+fstream
+-
+OpenCL/opencl.h
+src/OpenCL/opencl.h
+CL/cl.h
+src/CL/cl.h
+
